@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A124F408-E2FF-469B-B53F-35712E183C87}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meta.Domain", "Meta.Domain", "{A124F408-E2FF-469B-B53F-35712E183C87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Domain.Contract", "Domain\Meta.Domain.Contract\Meta.Domain.Contract.csproj", "{391577B9-D50A-45CB-BB2F-291CF52A213D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Domain.Dto", "Domain\Meta.Domain.Dto\Meta.Domain.Dto.csproj", "{EFAC743F-5AAF-4BBD-BF21-F85BE8B5327B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Domain.Test", "Domain\Meta.Domain.Test\Meta.Domain.Test.csproj", "{F62B2832-CE19-42DA-9FFA-D594E1E9817D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Domain.Query", "Domain\Meta.Domain.Query\Meta.Domain.Query.csproj", "{6723206D-354C-4D21-86E4-C211A9EE51A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Domain.Command", "Domain\Meta.Domain.Command\Meta.Domain.Command.csproj", "{A6C6C4E9-A586-4DC9-86B9-737F124BF14B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meta.Domain.Catalog", "Meta.Domain.Catalog\Meta.Domain.Catalog.csproj", "{26AEA5F2-02D6-4052-80E9-D12F4859C20C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,18 @@ Global
 		{F62B2832-CE19-42DA-9FFA-D594E1E9817D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62B2832-CE19-42DA-9FFA-D594E1E9817D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62B2832-CE19-42DA-9FFA-D594E1E9817D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6723206D-354C-4D21-86E4-C211A9EE51A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6723206D-354C-4D21-86E4-C211A9EE51A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6723206D-354C-4D21-86E4-C211A9EE51A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6723206D-354C-4D21-86E4-C211A9EE51A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C6C4E9-A586-4DC9-86B9-737F124BF14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C6C4E9-A586-4DC9-86B9-737F124BF14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C6C4E9-A586-4DC9-86B9-737F124BF14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C6C4E9-A586-4DC9-86B9-737F124BF14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AEA5F2-02D6-4052-80E9-D12F4859C20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AEA5F2-02D6-4052-80E9-D12F4859C20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AEA5F2-02D6-4052-80E9-D12F4859C20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AEA5F2-02D6-4052-80E9-D12F4859C20C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +55,8 @@ Global
 		{391577B9-D50A-45CB-BB2F-291CF52A213D} = {A124F408-E2FF-469B-B53F-35712E183C87}
 		{EFAC743F-5AAF-4BBD-BF21-F85BE8B5327B} = {A124F408-E2FF-469B-B53F-35712E183C87}
 		{F62B2832-CE19-42DA-9FFA-D594E1E9817D} = {A124F408-E2FF-469B-B53F-35712E183C87}
+		{6723206D-354C-4D21-86E4-C211A9EE51A6} = {A124F408-E2FF-469B-B53F-35712E183C87}
+		{A6C6C4E9-A586-4DC9-86B9-737F124BF14B} = {A124F408-E2FF-469B-B53F-35712E183C87}
+		{26AEA5F2-02D6-4052-80E9-D12F4859C20C} = {A124F408-E2FF-469B-B53F-35712E183C87}
 	EndGlobalSection
 EndGlobal

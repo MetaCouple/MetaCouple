@@ -1,10 +1,10 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Meta.Domain.Contract
+namespace Meta.Domain
 {
    public interface IClass
    {
+      IClassType ClassType { get; }
       IEnumerable<IAttribute> Attributes { get; }
    }
 }
